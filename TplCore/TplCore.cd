@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TplCore.TplSettings" Collapsed="true">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ICEQUCAgIQMCAQQEBAAAIEBACAAEgAAEIAAKQAARAMA=</HashCode>
+      <FileName>TplSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TplCore.Element.Block">
+    <Position X="1.75" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AACAYAAAAACAIgAEEAAAAAAAAAAEAQAIAAAgAABAABA=</HashCode>
+      <FileName>Element\Block.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TplCore.Element.Tag" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAYAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAgAAAAABA=</HashCode>
+      <FileName>Element\Tag.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TplCore.Element.Template">
+    <Position X="4" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAYAAAAAAAAAAEAAAAIAAAABAAAQAAAAAgAAAAAAA=</HashCode>
+      <FileName>Element\Template.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TplCore.Element.BaseElement" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAACAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Element\BaseElement.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TplCore.Compiler.Generator" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQCQQEUIKkAiQYCWCIAIqTAAGYACgCDALkAGCgwgE7I=</HashCode>
+      <FileName>Compiler\Generator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TplCore.Compiler.UrlLocater" Collapsed="true">
+    <Position X="8.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAQAAAAAEAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Compiler\UrlLocater.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TplCore.Web.HttpHeaderModule" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAACCAAAAAA=</HashCode>
+      <FileName>Web\HttpHeaderModule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Struct Name="TplCore.Compiler.NonBlockChunk" Collapsed="true">
+    <Position X="8.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Compiler\Generator.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TplCore.Compiler.BlockChunk" Collapsed="true">
+    <Position X="6.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Compiler\Generator.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="TplCore.Element.IComponent">
+    <Position X="6.5" Y="4" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Element\IComponent.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TplCore.Element.IElement">
+    <Position X="8.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Element\IElement.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
